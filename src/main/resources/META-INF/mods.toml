@@ -1,0 +1,9 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="extradynamics"
+version="1.0.0"
+displayName="Extra Dynamics"
+description='Pipes, transportations, machines, wow!'
+authors="davidmaamoaix"
