@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"cover": "extradynamics:block/glass",
+		"particle": "extradynamics:block/glass"
+	},
+	"elements": [
+		{
+			"from": [6, 5, 6],
+			"to": [10, 6, 10],
+			"faces": {
+				"north": {"uv": [1, 15, 5, 16], "texture": "#cover"},
+				"east": {"uv": [12, 0, 16, 1], "texture": "#cover"},
+				"south": {"uv": [0, 0, 4, 1], "texture": "#cover"},
+				"west": {"uv": [0, 0, 4, 1], "texture": "#cover"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#cover"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#cover"}
+			}
+		}
+	]
+}

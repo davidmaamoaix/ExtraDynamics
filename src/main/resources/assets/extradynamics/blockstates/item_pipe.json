@@ -1,0 +1,109 @@
+{
+	"multipart": [
+		{
+			"apply": {
+				"model": "extradynamics:block/pipe_base"
+			}
+		},
+		{
+			"when": {"down": "false"},
+			"apply": {
+				"model": "extradynamics:block/pipe_cover",
+				"uvlock": true
+			}
+		},
+		{
+			"when": {"down": "true"},
+			"apply": {
+				"model": "extradynamics:block/pipe_connector",
+				"uvlock": false
+			}
+		},
+		{
+			"when": {"up": "false"},
+			"apply": {
+				"model": "extradynamics:block/pipe_cover",
+				"x": 180,
+				"uvlock": true
+			}
+		},
+		{
+			"when": {"up": "true"},
+			"apply": {
+				"model": "extradynamics:block/pipe_connector",
+				"x": 180,
+				"y": 180,
+				"uvlock": false
+			}
+		},
+		{
+			"when": {"north": "false"},
+			"apply": {
+				"model": "extradynamics:block/pipe_cover",
+				"x": 270,
+				"uvlock": true
+			}
+		},
+		{
+			"when": {"north": "true"},
+			"apply": {
+				"model": "extradynamics:block/pipe_connector",
+				"x": 270,
+				"z": 180,
+				"uvlock": false
+			}
+		},
+		{
+			"when": {"south": "false"},
+			"apply": {
+				"model": "extradynamics:block/pipe_cover",
+				"x": 90,
+				"uvlock": true
+			}
+		},
+		{
+			"when": {"south": "true"},
+			"apply": {
+				"model": "extradynamics:block/pipe_connector",
+				"x": 90,
+				"uvlock": false
+			}
+		},
+		{
+			"when": {"west": "false"},
+			"apply": {
+				"model": "extradynamics:block/pipe_cover",
+				"x": 90,
+				"y": 90,
+				"uvlock": true
+			}
+		},
+		{
+			"when": {"west": "true"},
+			"apply": {
+				"model": "extradynamics:block/pipe_connector",
+				"x": 90,
+				"y": 90,
+				"uvlock": false
+			}
+		},
+		{
+			"when": {"east": "false"},
+			"apply": {
+				"model": "extradynamics:block/pipe_cover",
+				"x": 90,
+				"y": 270,
+				"uvlock": true
+			}
+		},
+		{
+			"when": {"east": "true"},
+			"apply": {
+				"model": "extradynamics:block/pipe_connector",
+				"x": 90,
+				"y": 270,
+				"uvlock": false
+			}
+		}
+	]
+}
